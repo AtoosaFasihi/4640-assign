@@ -3,7 +3,8 @@ assignment_1
 
 Make sure you have terraform installed to be able to replicate the configuration
 
-To install terraform use the link bellow: 
+To install terraform use the link bellow:
+
 https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
 ## To replicate the configuration on a new machine follow these instructions: 
@@ -15,7 +16,8 @@ https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
 Information about the file structure in this assignment: 
 
-`- main.tf(provider info)
+` 
+- main.tf(provider info)
 - variables.tf(variables, anything that you use twice, or could change(region, size…) )
 - terraform.tfvars(variable values)
 - output.tf(any output blocks, like ip addresses, and database connection uri)

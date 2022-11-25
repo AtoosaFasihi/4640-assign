@@ -1,5 +1,4 @@
 # 4640-assign
-assignment_1
 
 Make sure you have terraform installed to be able to replicate the configuration
 
@@ -16,7 +15,6 @@ https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
 Information about the file structure in this assignment: 
 
-` 
 - main.tf(provider info)
 - variables.tf(variables, anything that you use twice, or could change(region, size…) )
 - terraform.tfvars(variable values)
@@ -26,7 +24,7 @@ Information about the file structure in this assignment:
 - bastion.tf(includes firewall for bastion server)
 - network.tf (your vpc)
 - data.tf(data blocks, like your ssh keys)
-- .env` 
+- .env 
 
 # Configure Terraform 
 
@@ -37,15 +35,15 @@ Information about the file structure in this assignment:
 
 * source your .env file by running 
 
-```source .env```
+   ```source .env```
 
 * To complete this assignmnent first run this command: 
 
-`terraform init`
+  `terraform init`
 
 * you can check the validation of the main.tf file by running:
 
-`terraform validate`
+  `terraform validate`
 
 * After the configuration is valid you can run `terraform plan` to see what will be created using terraform.
 
